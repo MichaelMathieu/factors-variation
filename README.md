@@ -6,10 +6,13 @@ This code is a cleaned up version of our research code, and does not cover every
 ## Requirements
 
 This code runs using torch. It is only tested on GPU. The following torch libraries are required:
-nn, cunn, cudnn, optim, image, nngraph
+nn, cunn, cudnn, optim, image, nngraph.
 
 The following libraries are optional (but strongly recommended:
-nnx, display
+nnx, display.
+
+We are using preprocessed versions of the dataset. You can download the mnist files [here](cs.nyu.edu/~mathieu/mnist.tgz) .
+You need to create a folder data/mnist containing these files.
 
 ## Usage
 
